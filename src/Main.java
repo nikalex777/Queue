@@ -14,7 +14,7 @@ public class Main {
             if (attraction.ticket > 0) {
                 queueForTheAttraction.add(attraction);
             }
-            System.out.println(" ------------------------------------------------------------- ");
+            //System.out.println(" ------------------------------------------------------------- ");
             System.out.println(attraction.getName() + " " + attraction.getSurname() + " прокатился на аттракционе " +
                     "у него осталось(ся) " + attraction.ticket + " билет(а)");
         }
